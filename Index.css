@@ -1,0 +1,112 @@
+
+
+
+/* setting the color of the background for the structure of web page */
+body { background : grey;  }
+
+ /*  the wrapper to centre webpage in browser */   
+div#container {
+	width : 70%;
+	margin : auto;
+	background-color: white;
+	color : black; 
+	border : 2px solid black ;}
+	
+
+	/* Style for main content area  */
+main { 
+
+	padding : 10px ;
+	color : black;	
+	border : 2px solid black ;  }
+
+	
+	/* Style for the banner */
+header {
+	padding : 10px ;
+	border-bottom : 5px solid white ; 
+	background : Darkslateblue; 
+	color : white;  
+	}
+
+	/* The menu  for the header*/
+nav {
+	height : 50px; 
+	padding : 10px; 
+	border-bottom : 5px solid black ;
+	background : Darkslateblue; 
+	color : white; 
+	}
+
+	/* Style for the footer */
+footer{ 
+	clear : both ; 
+	padding : 10px; 
+	border : 2px solid black ;
+	background : Darkslateblue; 
+	color : white;  
+	}
+
+/* The rules you set for the list */	
+main ul { 
+	list-style-type: square;
+	padding-left: 20px;
+	}
+
+main ul li {
+	text-align: left;
+}
+
+/* font style rules */
+header {font-family : "Times New Roman", Times, serif ; font-size: 16px; text-align :left;}
+nav {font-family : "Times New Roman", Times, serif ; font-size: 16px; text-align :left;}
+main {font-family : "Times New Roman", Times, serif ; font-size: 16px; text-align :left;}
+footer{font-family : "Times New Roman", Times, serif ; font-size: 16px; text-align :left;}
+
+/* alignment for the main heading and paragraph */
+main h1, h2, p { text-align :left; }
+
+/* Hyperlink rules */
+footer a {text-decoration: none; font-weight: bold;}
+nav a {text-decoration: none; font-weight: bold;}
+
+/* footer color */
+footer a:link, a:hover, a:active { color: white; }
+footer a:visited { color: grey; }
+
+/* navigation color */
+nav a:link, a:hover, a:active { color: white; }
+nav a:visited { color: grey; }
+
+main a:link, a:hover, a:active { color: black; }
+main a:visited { color: grey; }
+
+/* Style rules for the navigation */
+nav ul { list-style-type : none ; margin : 0 ; padding : 0 ;  overflow : hidden ; }
+
+/* style rule used for the navigation list */
+nav li a { 
+	display : block ; 
+	text-align : left ; 
+	text-decoration : none ; 
+	color : white ; 
+	padding : 10px ; 
+	float : left ; }
+
+/* navigation background color */	
+nav li a:current { background : DarkSlateBlue ; }
+nav li a:hover { background : DarkSlateBlue ; color : Blue ; }
+
+/* Image style rules */
+.imgFloatRight1 {float: right;  margin: 20px 100px 0px 0px;}
+.imgFloatRight2 {float: right;  margin: 0px 570px 0px 0px;}
+.imgFloatRight3 {float: right;  margin: 20px 100px 0px 0px;}
+.imgFloatRight4 {float: right;  margin: 0px 670px 0px 0px;}
+
+/* Table Caption style rule */
+caption {
+	font-family :  "Times New Roman", Times, serif; 
+	font-size: 16px; 
+	text-align :left;
+	font-weight:bold;
+}
