@@ -95,7 +95,7 @@ iframe
 	padding: 2px;
  }
 
-.video1
+#video1
  {
 	
 	position: relative;
@@ -104,7 +104,7 @@ iframe
 	overflow: hidden;	
  }
 
-.img1 
+#img1 
  {
 	float: right;
 	border: 3px solid black;
